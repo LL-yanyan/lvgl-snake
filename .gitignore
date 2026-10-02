@@ -1,0 +1,14 @@
+# 构建输出
+build/
+bin/
+*.o
+*.a
+*.so
+
+# LVGL 本地配置（配置通过 LV_CONF_PATH 指定，不写入源码树）
+lvgl/lv_conf.h
+
+# 编辑器 / 系统文件
+.vscode/
+.idea/
+.DS_Store
